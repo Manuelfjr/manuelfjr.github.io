@@ -71,7 +71,10 @@ last_modified_at: 2021-04-04T08:06:00-20:00
 # [birt-sgd](https://test.pypi.org/project/birt-sgd/)
 **BIRTSGD** is an implementation of Beta3-irt using gradient descent.
 
-The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be $p_{ij}$ ~ $\Beta(\alpha_{ij}, \beta_{ij})$, the probability of the *i* model correctly classifying the *j* model.
+The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be <img src="https://latex.codecogs.com/svg.latex?&space;p_{ij} \sim B(\alpha_{ij}, \beta_{ij})" title="p_{ij} \sim B(\alpha_{ij}, \beta_{ij})" />, the probability of the *i* model correctly classifying the *j* model.
+
+
+
 <!--
 $$
 p_{ij} \sim Beta(\alpha_{ij}, \beta_{ij}),
