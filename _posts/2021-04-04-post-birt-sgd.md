@@ -9,7 +9,7 @@ tags:
   - IRT
   - Python
   - Model
-  - v0.1.11
+  - v0.1.12
   - Statistic
   - works
 toc: true
