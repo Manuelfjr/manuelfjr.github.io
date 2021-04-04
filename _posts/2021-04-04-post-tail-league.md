@@ -1,5 +1,5 @@
 ---
-title:  "Founding member of TAIL - Technology and Artificial Intelligence League, director of mathematics - 2020"
+title:  "Founding member of TAIL - Technology and Artificial Intelligence League, director of mathematics"
 search: false
 categories: 
   - Works
