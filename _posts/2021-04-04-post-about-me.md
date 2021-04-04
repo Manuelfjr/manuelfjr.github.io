@@ -1,6 +1,6 @@
 ---
 title:  "About me ..."
-search: false
+search: true
 categories: 
   - About
 tags:

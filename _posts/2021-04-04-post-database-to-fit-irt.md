@@ -1,6 +1,6 @@
 ---
 title:  "A database to fit item response theory models"
-search: false
+search: true
 categories: 
   - Works
 tags:

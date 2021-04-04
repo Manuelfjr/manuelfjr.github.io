@@ -1,6 +1,6 @@
 ---
 title:  "BIRTSGD is an implementation of Beta3-irt using gradient descent."
-search: false
+search: true
 categories: 
   - Works
 tags:

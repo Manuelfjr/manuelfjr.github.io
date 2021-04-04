@@ -1,6 +1,6 @@
 ---
 title:  "Founding member of TAIL - Technology and Artificial Intelligence League, director of mathematics"
-search: false
+search: true
 categories: 
   - Works
 tags:

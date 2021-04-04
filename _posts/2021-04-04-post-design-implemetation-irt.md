@@ -1,6 +1,6 @@
 ---
 title:  "Design and Implementation of IRT models for Clustering Evaluation"
-search: false
+search: true
 categories: 
   - Works
 tags:

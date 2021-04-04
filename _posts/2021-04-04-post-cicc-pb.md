@@ -1,6 +1,6 @@
 ---
 title:  "System Developer in the CICC-PB Integration Project (AI + Data Science)"
-search: false
+search: true
 categories: 
   - Works
 tags:

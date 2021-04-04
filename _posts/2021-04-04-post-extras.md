@@ -1,6 +1,6 @@
 ---
 title:  "Extras"
-search: false
+search: true
 categories: 
   - Extras
 tags:

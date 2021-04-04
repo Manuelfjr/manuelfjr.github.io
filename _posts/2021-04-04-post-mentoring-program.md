@@ -1,6 +1,6 @@
 ---
 title:  "Mentoring program of the vital statistics discipline by the UFPB statistics department"
-search: false
+search: true
 categories: 
   - Works
 tags:
