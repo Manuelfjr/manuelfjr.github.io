@@ -85,7 +85,7 @@ p<sub>ij</sub> ~ &Beta;(&alpha;<sub>ij</sub>, &beta;<sub>ij</sub>)
 
 where,
 
-E[p<sub>ij</sub> | &theta;<sub>i</sub>, &delta;<sub>j</sub>, a<sub>j</sub>] = (&alpha;<sub>ij</sub>)/( &alpha;<sub>ij</sub> + &beta;<sub>ij</sub>) = 1/(1 + ( (&delta;<sub>ij</sub>)/(1 - &delta;<sub>ij</sub>) )<sup>a<sub>ij</sub></sup> &#xd7; ( (&theta;<sub>ij</sub>)/(1 - &theta;<sub>ij</sub>) )<sup> - a<sub>ij</sub></sup> )
+E[p<sub>ij</sub> | &theta;<sub>i</sub>, &delta;<sub>j</sub>, a<sub>j</sub>] = (&alpha;<sub>ij</sub>)/( &alpha;<sub>ij</sub> + &beta;<sub>ij</sub>) = 1/(1 + ( (&delta;<sub>j</sub>)/(1 - &delta;<sub>j</sub>) )<sup>a<sub>j</sub></sup> &#xd7; ( (&theta;<sub>i</sub>)/(1 - &theta;<sub>i</sub>) )<sup> - a<sub>j</sub></sup> )
 
 # Installation
 ## Dependencies 
