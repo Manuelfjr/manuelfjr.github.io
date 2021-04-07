@@ -1,4 +1,19 @@
 ---
+title: "BIRTSGD is an implementation of Beta3-irt using gradient descent."
+search: true
+categories: 
+  - Works
+tags:
+  - Artificial Intelligence
+  - Data Science
+  - IRT
+  - Python
+  - Model
+  - v0.1.14
+  - Statistic
+  - works
+toc: true
+last_modified_at: 2021-04-04T08:06:00-20:00
 mathjax: true
 ---
 
