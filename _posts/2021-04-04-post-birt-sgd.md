@@ -1,20 +1,7 @@
 ---
-title:  "BIRTSGD is an implementation of Beta3-irt using gradient descent."
-search: true
-categories: 
-  - Works
-tags:
-  - Artificial Intelligence
-  - Data Science
-  - IRT
-  - Python
-  - Model
-  - v0.1.12
-  - Statistic
-  - works
-toc: true
-last_modified_at: 2021-04-04T08:06:00-20:00
+mathjax: true
 ---
+
 [![license: MIT](https://img.shields.io/badge/license-MIT-red.svg?&logo=license&color=blue)](https://github.com/Manuelfjr/birt-sgd/blob/main/LICENSE)
 [![Docs](https://img.shields.io/badge/docs-birtsgd-blue?&logo)](https://github.com/Manuelfjr/birt-sgd)
 [![Author](https://img.shields.io/badge/author-manuelfjr-blue?&logo=github)](https://github.com/Manuelfjr)
@@ -71,38 +58,20 @@ last_modified_at: 2021-04-04T08:06:00-20:00
 # [birt-sgd](https://test.pypi.org/project/birt-sgd/)
 **BIRTSGD** is an implementation of Beta3-irt using gradient descent.
 
-The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be <img src="https://latex.codecogs.com/svg.latex?&space;p_{ij} \sim B(\alpha_{ij}, \beta_{ij})" title="p_{ij} \sim B(\alpha_{ij}, \beta_{ij})" />, the probability of the *i* model correctly classifying the *j* model. Being:   
+The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be p<sub>ij</sub> ~ &Beta;(&alpha;<sub>ij</sub>, &beta;<sub>ij</sub>), the probability of the *i* model correctly classifying the *j* model. Being, 
 
-<img src="https://latex.codecogs.com/svg.latex?&space;p_{ij} \sim B(\alpha_{ij}, \beta_{ij}), " title="p_{ij} \sim B(\alpha_{ij}, \beta_{ij}), " /><br>
+p<sub>ij</sub> ~ &Beta;(&alpha;<sub>ij</sub>, &beta;<sub>ij</sub>)
 
-<img src="https://latex.codecogs.com/svg.latex?&space;\alpha_{ij} = F_{\alpha}(\theta_{i}, \delta_{j}, a_{j}) = \bigg(\frac{\theta_{i}}{\delta_{j}}\bigg)^{a_{j}}, " title="\alpha_{ij} = F_{\alpha}(\theta_{i}, \delta_{j}, a_{j}) = \bigg(\frac{\theta_{i}}{\delta_{j}}\bigg)^{a_{j}}, " /><br>
+&alpha;<sub>ij</sub> = F<sub>&alpha;</sub>(&theta;<sub>i</sub>, &delta;<sub>j</sub>, a<sub>j</sub>) = (&theta;<sub>ij</sub>/&delta;<sub>ij</sub>)<sup>a<sub>j</sub></sup>
 
-<img src="https://latex.codecogs.com/svg.latex?&space;\beta_{ij} = F_{\beta}(\theta_{i}, \delta_{j}, a_{j}) = \bigg(\frac{1 - \theta_{i}}{1 - \delta_{j}}\bigg)^{a_{j}}," title="\beta_{ij} = F_{\beta}(\theta_{i}, \delta_{j}, a_{j}) = \bigg(\frac{1 - \theta_{i}}{1 - \delta_{j}}\bigg)^{a_{j}}, " /><br>
+&beta;<sub>ij</sub> = F<sub>&beta;</sub>(&theta;<sub>i</sub>, &delta;<sub>j</sub>, a<sub>j</sub>) = ( (1 - &theta;<sub>ij</sub>)/(1 - &delta;<sub>ij</sub>) )<sup>a<sub>j</sub></sup>
 
-<img src="https://latex.codecogs.com/svg.latex?&space;\theta_{i} \sim B(1,1), \delta_{j} \sim B(1,1), a_{j} \sim N(1, \sigma^{2}_{0})," title="\theta_{i} \sim B(1,1), \delta_{j} \sim B(1,1), a_{j} \sim N(1, \sigma^{2}_{0}), " /><br>
+&theta;<sub>i</sub> ~ &Beta;(1,1), &delta;<sub>j</sub> ~ &Beta;(1,1), a<sub>j</sub> ~ N(1, &sigma;<sup>2</sup><sub>0</sub>)
 
 where,
 
-<img src="https://latex.codecogs.com/svg.latex?&space;E[p_{ij} | \theta_i,\delta_j,a_j] = \frac{\alpha_{ij}}{\alpha_{ij} + \beta_{ij}} = \frac{1}{1 - \big(\frac{\delta_{j}}{1 - \delta_{j}}\big)^{a_{j}}\cdot \big(\frac{\theta_{i}}{1 - \theta_{i}}\big)^{ - a_{j}} }," title="E[p_{ij} | \theta_i,\delta_j,a_j] = \frac{\alpha_{ij}}{\alpha_{ij} + \beta_{ij}} = \frac{1}{1 - \big(\frac{\delta_{j}}{1 - \delta_{j}}\big)^{a_{j}}\cdot \big(\frac{\theta_{i}}{1 - \theta_{i}}\big)^{ - a_{j}} }, " /><br>
+E[p<sub>ij</sub> | &theta;<sub>i</sub>, &delta;<sub>j</sub>, a<sub>j</sub>] = (&alpha;<sub>ij</sub>)/( &alpha;<sub>ij</sub> + &beta;<sub>ij</sub>) = 1/(1 + ( (&delta;<sub>ij</sub>)/(1 - &delta;<sub>ij</sub>) )<sup>a<sub>ij</sub></sup> &#xd7; ( (&theta;<sub>ij</sub>)/(1 - &theta;<sub>ij</sub>) )<sup> - a<sub>ij</sub></sup> )
 
-<!--
-$$
-p_{ij} \sim Beta(\alpha_{ij}, \beta_{ij}),
-$$
-$$
-\alpha_{ij} = F_{\alpha}(\theta_{i}, \delta_{j}, a_{j}) = \bigg(\frac{\theta_{i}}{\delta_{j}}\bigg)^{a_{j}},
-$$
-$$
-\beta_{ij} = F_{\beta}(\theta_{i}, \delta_{j}, a_{j}) = \bigg(\frac{1 - \theta_{i}}{1 - \delta_{j}}\bigg)^{a_{j}},
-$$
-$$
-\theta_{i} \sim B(1,1), \delta_{j} \sim B(1,1), a_{j} \sim N(1, \sigma^{2}_{0})
-$$
-where,
-$$
-E[p_{ij} | \theta_i,\delta_j,a_j] = \frac{\alpha_{ij}}{\alpha_{ij} + \beta_{ij}} = \frac{1}{1 - \big(\frac{\delta_{j}}{1 - \delta_{j}}\big)^{a_{j}}\cdot \big(\frac{\theta_{i}}{1 - \theta_{i}}\big)^{ - a_{j}} }
-$$
--->
 # Installation
 ## Dependencies 
 birt-sgd requires:
