@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Manuel Ferreira Junior"
   avatar           : "/assets/images/bio.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student of the Bachelor of Statistics course at the Federal University of Paraíba \n / Co-founder and Director at TAIL-Techonology and Artificial Inteligence League \n / System Developer in the CICC-PB Integration Project (AI + Data Science) "
+  bio              : "Student of the Bachelor of Statistics course at Universidade Federal da Paraíba \n / Co-founder and Director at TAIL-Techonology and Artificial Inteligence League \n / System Developer in the CICC-PB Integration Project (AI + Data Science) "
   location         : "Brazil, João Pessoa - PB"
   email            :
   links:
@@ -185,9 +185,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
+lsi: true
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
 
 
 # Markdown Processing
@@ -210,9 +210,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-#paginate: 5 # amount of posts to show
-#paginate_path: /page:num/
-#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Fortaleza # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -277,7 +277,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # true
       share: true
       related: true
   # _docs
@@ -286,9 +286,9 @@ defaults:
       type: docs
     values:
       layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
+      read_time: true
+      author_profile: true
+      share: true
+      comments: true
       sidebar:
         nav: "docs"
