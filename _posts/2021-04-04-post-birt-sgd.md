@@ -99,7 +99,7 @@ birt-sgd requires:
 ## User installation
 
 ```bash
-pip install birt-sgd
+pip install -i https://test.pypi.org/simple/ birt-sgd
 ```
 
 ## Source code 
