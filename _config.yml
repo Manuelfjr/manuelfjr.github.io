@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Manuel | Welcome"
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Manuel Ferreira Junior"
 description              : "Python and R enthusiast. Machine Learning, Artificial Intelligence, Item Response Theory, Data Science and Statistics researcher."
@@ -274,9 +274,10 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
-      read_time: true
+      #read_time: true
       comments: true # true
       share: true
       related: true
@@ -285,8 +286,9 @@ defaults:
       path: ""
       type: docs
     values:
+      show_date: true
       layout: single
-      read_time: true
+      #read_time: true
       author_profile: true
       share: true
       comments: true
