@@ -17,3 +17,5 @@ header:
 
 last_modified_at: 2021-04-02T08:06:00-01:00
 ---
+
+I’m an undergraduate student in statistics at the [Universidade Federal da Paraíba (UFPB)](https://www.ufpb.br/). I’m studying the fifth period of the statistics course, I come from my second scientific initiation project. I'm an *PYTHON* and *R* enthusiast. Maybe I don’t know, but I’m going after that, slogan :), I like to program in my free time and learn new things, ah, it is worth mentioning that a coffee helps a lot.
