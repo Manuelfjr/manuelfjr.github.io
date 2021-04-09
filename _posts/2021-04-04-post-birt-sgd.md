@@ -9,7 +9,7 @@ tags:
   - IRT
   - Python
   - Model
-  - v0.1.14
+  - v0.1.18
   - Statistic
   - works
 toc: true
@@ -23,7 +23,7 @@ header:
     - label: "Download"
       url: "https://test-files.pythonhosted.org/packages/1c/14/b7113c6e9dc8002a4d47aa564bc79ec2bae6f5cbc6bc539042d327716ef7/birt-sgd-0.1.18.tar.gz"
 
-last_modified_at: 2021-04-04T08:06:00-20:00
+last_modified_at: 2021-03-04T08:06:00-20:00
 mathjax: true
 ---
 
