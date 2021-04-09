@@ -18,7 +18,7 @@ header:
   #  - label: "Download"
   #    url: "https://github.com"
 
-last_modified_at: 2021-04-04T08:06:00-03:00
+last_modified_at: 2021-04-05T08:06:00-04:00
 ---
 To design and develop a data integration platform related to the systems of the Integrated Command and Control Center (CICC) of the Government of the State of Paraíba (CICC-PB) and current systems of the State Department of Finance of the State of Paraíba (SEFAZ ), Paraíba State Secretariat for Security and Social Defense (SESDS) and Paraíba State Secretariat for Education and Science and Technology (SEECT), including real-time data and building applications that use intelligence with the main objective of improving tax inspection systems; public security; and education, culture and technology, linked, respectively, to SEFAZ, SESDS and SEECT.
 
