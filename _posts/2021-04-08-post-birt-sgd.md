@@ -21,12 +21,11 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://test-files.pythonhosted.org/packages/7e/ce/26bca81197d0aa01e6ce9c8dfb98e76d1197508f7cc698b2c06ea643ec60/birt-sgd-0.1.25.tar.gz"
+      url: "https://test-files.pythonhosted.org/packages/f5/1a/29ce5e3e19c97dc0c8e1c9b598f814cb48fb1751ec97ed4f54078120384b/birt-sgd-0.1.26.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
 ---
-
 [![license: MIT](https://img.shields.io/badge/license-MIT-red.svg?&logo=license&color=blue)](https://github.com/Manuelfjr/birt-sgd/blob/main/LICENSE)
 [![Docs](https://img.shields.io/badge/docs-birtsgd-blue?&logo)](https://github.com/Manuelfjr/birt-sgd)
 [![Author](https://img.shields.io/badge/author-manuelfjr-blue?&logo=github)](https://github.com/Manuelfjr)
