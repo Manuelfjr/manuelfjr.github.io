@@ -1,0 +1,26 @@
+---
+title:  "Data Scientist Intern at Aplicativos de Bolso"
+search: true
+categories: 
+  - Works
+tags:
+  - Artificial Intelligence
+  - Data Science
+  - works
+  - Statistic
+  - Machine Learning
+toc: true
+
+excerpt: " "
+header:
+  overlay_image: /assets/images/main_fundo.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #actions:
+  #  - label: "Download"
+  #    url: "https://github.com"
+
+last_modified_at: 2021-09-01T00:00:00-04:00
+---
+
+Updating Sofia, a Deep Learning based recommender system that assists Law Students to pass on the OAB examination (Brazilian Bar examination), the engine recommends questions to the users according to their performance on the application's simulations. 
