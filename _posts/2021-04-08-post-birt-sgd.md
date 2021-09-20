@@ -1,5 +1,5 @@
 ---
-title: "BIRTSGD is an implementation of Beta3-irt using gradient descent."
+title: "BIRTSGD is an implementation of &beta;<sup>3</sup>-irt using gradient descent."
 search: true
 categories: 
   - Works
@@ -78,6 +78,7 @@ mathjax: true
 <!--
 [![Downloads](https://pepy.tech/badge/pandas)](https://pepy.tech/project/pandas)    
 -->
+
 
 # [birt-sgd](https://test.pypi.org/project/birt-sgd/)
 **BIRTSGD** is an implementation of Beta3-irt using gradient descent.
