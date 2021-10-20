@@ -1,5 +1,5 @@
 ---
-title: "BIRTSGD is an implementation of &beta;<sup>3</sup>-irt using gradient descent."
+title: "BIRTSGD is an implementation of &beta;<sup>3</sup>-IRT using gradient descent."
 search: true
 categories: 
   - Works
