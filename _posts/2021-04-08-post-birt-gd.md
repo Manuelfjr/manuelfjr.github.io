@@ -1,5 +1,5 @@
 ---
-title: "BIRTSGD is an implementation of &beta;<sup>3</sup>-IRT using gradient descent."
+title: "BIRTGD is an implementation of &beta;<sup>3</sup>-IRT using gradient descent."
 search: true
 categories: 
   - Works
@@ -21,13 +21,14 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://test-files.pythonhosted.org/packages/f5/1a/29ce5e3e19c97dc0c8e1c9b598f814cb48fb1751ec97ed4f54078120384b/birt-sgd-0.1.26.tar.gz"
+      url: "https://test-files.pythonhosted.org/packages/4a/1d/ae60e876b0f40de00fd8404bf7081c97ff1491d4026ca75be7f2227ed86b/birt-gd-0.1.11.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
 ---
-[![license: MIT](https://img.shields.io/badge/license-MIT-red.svg?&logo=license&color=blue)](https://github.com/Manuelfjr/birt-sgd/blob/main/LICENSE)
-[![Docs](https://img.shields.io/badge/docs-birtsgd-blue?&logo)](https://github.com/Manuelfjr/birt-sgd)
+
+[![license: MIT](https://img.shields.io/badge/license-MIT-red.svg?&logo=license&color=blue)](https://github.com/Manuelfjr/birt-gd/blob/main/LICENSE)
+[![Docs](https://img.shields.io/badge/docs-birtgd-blue?&logo)](https://github.com/Manuelfjr/birt-sgd)
 [![Author](https://img.shields.io/badge/author-manuelfjr-blue?&logo=github)](https://github.com/Manuelfjr)
 [![Author2](https://img.shields.io/badge/author-tmfilho-blue?&logo=github)](https://github.com/tmfilho)
 
@@ -79,9 +80,8 @@ mathjax: true
 [![Downloads](https://pepy.tech/badge/pandas)](https://pepy.tech/project/pandas)    
 -->
 
-
-# [birt-sgd](https://test.pypi.org/project/birt-sgd/)
-**BIRTSGD** is an implementation of Beta3-irt using gradient descent.
+# [birt-gd](https://test.pypi.org/project/birt-gd/)
+**BIRTGD** is an implementation of Beta3-irt using gradient descent.
 
 The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be p<sub>ij</sub> ~ &Beta;(&alpha;<sub>ij</sub>, &beta;<sub>ij</sub>), the probability of the *i* model correctly classifying the *j* model. Being, 
 
@@ -105,52 +105,123 @@ birt-sgd requires:
 - tqdm (>=4.59.0)
 - tensorflow (>=2.4.1)
 - pandas (>=1.2.3)
+- seaborn (>=0.11.0)
+- matplotlib (>=3.3.2)
+- scikit-learn (>=0.23.2)
 
 ## User installation
 
 ```bash
-pip install -i https://test.pypi.org/simple/ birt-sgd
+pip install -i https://test.pypi.org/simple/ birt-gd
 ```
 
 ## Source code 
 You can check the code with 
 ```bash
-git clone https://github.com/Manuelfjr/birt-sgd
+git clone https://github.com/Manuelfjr/birt-gd
 ```
 
 # Usage
-Import the **BIRTSGD's class**
+Import the **BIRTGD's class**
 
 ```py
->>> from birt import BIRTSGD
+>>> from birt import BIRTGD
 ```
 
 ```py
->>> X = [(0,0),(0,1),(0,2),(1,0),(1,1),(1,2)]
->>> Y = [0.98,0.81,0.12,0.567,0.76,0.9]
+>>> data = pd.DataFrame({'a': [0.99,0.89,0.87], 'b': [0.32,0.25,0.45]})
 ```
 
 ```py
->>> bsgd = BIRTSGD(n_models=3, n_instances=2, random_seed=1)
->>> bsgd.fit(X,Y)
-100%|██████████| 20/20 [00:00<00:00, 52.81it/s]
-<birt.BIRTSGD at 0x7f6ce2555f50>
+>>> bgd = BIRTGD(n_models=2, n_instances=3, random_seed=1)
+>>> bgd.fit(data)
+100%|██████████| 5000/5000 [00:22<00:00, 219.50it/s]
+<birt.BIRTGD at 0x7f6131326c10>
 ```
 
 ```py 
->>> bsgd.abilities
-array([0.78665066, 0.5025896 , 0.545207  ], dtype=float32)
+>>> bgd.abilities
+array([0.90438306, 0.27729774], dtype=float32)
 ```
 
 ```py
->>> bsgd.difficulties
-array([0.25070453, 0.46883535], dtype=float32)
+>>> bgd.difficulties
+array([0.3760659 , 0.5364428 , 0.34256178], dtype=float32)
 ```
 
 ```py
->>> bsgd.discriminations
-array([0.09374281, 1.4122988 ], dtype=float32)
+>>> bgd.discriminations
+array([1.6690203 , 0.9951777 , 0.65577406], dtype=float32)
 ```
+
+# Summary data
+
+How to use the summary feature:
+
+* **Generate data**
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+
+m, n = 5, 20
+np.random.seed(1)
+abilities = [np.random.beta(1,i) for i in ([0.1, 10] + [1]*(m-2))]
+difficulties = [np.random.beta(1,i) for i in [10, 5] + [1]*(n-2)]
+discrimination = list(np.random.normal(1,1, size=n))
+pij = pd.DataFrame(columns=range(m), index=range(n))
+```
+
+* **Fitting the model**
+```py
+birt = BIRTGD(n_models=pij.shape[1],
+             n_instances=pij.shape[0],
+             learning_rate=1,
+             epochs=5000,
+             n_inits=1000)
+birt.fit(pij)
+```
+
+* **Summary**
+```py
+birt.summary()
+```
+```py
+
+        HYPERPARAMS
+        -----
+                        | Min      1Qt      Median   3Qt      Max      Std.Dev
+        Ability         | 0.00010  0.22148  0.63389  0.73353  0.92040  0.33960
+        Difficulty      | 0.01745  0.28047  0.63058  0.84190  0.98624  0.31635
+        Discrimination  | 0.31464  1.28330  1.61493  2.22936  4.44645  1.02678
+        pij             | 0.00000  0.02219  0.35941  0.86255  0.99993  0.40210
+        -----
+        Pseudo-R2       | 0.90381
+        
+
+```
+
+# Using Plot Feature
+```py
+birt.plot(xaxis='discrimination',yaxis='difficulty', ann=True, kwargs={'color': 'red'})
+plt.show()
+```
+
+<img alt = "assets/dis_diff_ex.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/feature-matrix-ops/assets/dis_diff_ex.png">
+
+```py
+birt.plot(xaxis='difficulty',yaxis='average_item', ann=True, kwargs={'color': 'red'})
+plt.show()
+```
+
+<img alt = "assets/diff_av_ex2.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/feature-matrix-ops/assets/diff_av_ex2.png">
+
+
+```py
+birt.plot(xaxis='ability',yaxis='average_response', ann=False)
+plt.show()
+```
+
+<img alt = "assets/ab_av_ex3.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/feature-matrix-ops/assets/ab_av_ex3.png">
 
 # Help and Support
 ## Communication
