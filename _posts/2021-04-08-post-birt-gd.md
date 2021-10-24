@@ -21,7 +21,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://test-files.pythonhosted.org/packages/7b/9b/da1ee44e9a66e6e38c2ee39e8ce187c03882ebdc17282d14ec369bb4077e/birt-gd-0.1.13.tar.gz"
+      url: "https://test-files.pythonhosted.org/packages/46/a5/d0bb5d09abe9a67974ffeec1b2adb66fcfe1189aa30ac8935e23318ed60c/birt-gd-0.1.15.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
@@ -187,7 +187,7 @@ birt.summary()
 ```
 ```py
 
-        HYPERPARAMS
+        ESTIMATES
         -----
                         | Min      1Qt      Median   3Qt      Max      Std.Dev
         Ability         | 0.00010  0.22148  0.63389  0.73353  0.92040  0.33960
