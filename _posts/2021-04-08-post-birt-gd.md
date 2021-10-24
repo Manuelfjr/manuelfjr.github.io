@@ -122,6 +122,7 @@ git clone https://github.com/Manuelfjr/birt-gd
 ```
 
 # Usage
+
 Import the **BIRTGD's class**
 
 ```py
@@ -159,6 +160,7 @@ array([1.6690203 , 0.9951777 , 0.65577406], dtype=float32)
 How to use the summary feature:
 
 * **Generate data**
+
 ```py
 import numpy as np
 import matplotlib.pyplot as plt
@@ -172,6 +174,7 @@ pij = pd.DataFrame(columns=range(m), index=range(n))
 ```
 
 * **Fitting the model**
+
 ```py
 birt = BIRTGD(n_models=pij.shape[1],
              n_instances=pij.shape[0],
@@ -182,6 +185,7 @@ birt.fit(pij)
 ```
 
 * **Summary**
+
 ```py
 birt.summary()
 ```
