@@ -21,7 +21,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://test-files.pythonhosted.org/packages/4a/1d/ae60e876b0f40de00fd8404bf7081c97ff1491d4026ca75be7f2227ed86b/birt-gd-0.1.11.tar.gz"
+      url: "https://test-files.pythonhosted.org/packages/7b/9b/da1ee44e9a66e6e38c2ee39e8ce187c03882ebdc17282d14ec369bb4077e/birt-gd-0.1.13.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
@@ -122,7 +122,6 @@ git clone https://github.com/Manuelfjr/birt-gd
 ```
 
 # Usage
-
 Import the **BIRTGD's class**
 
 ```py
@@ -160,7 +159,6 @@ array([1.6690203 , 0.9951777 , 0.65577406], dtype=float32)
 How to use the summary feature:
 
 * **Generate data**
-
 ```py
 import numpy as np
 import matplotlib.pyplot as plt
@@ -174,7 +172,6 @@ pij = pd.DataFrame(columns=range(m), index=range(n))
 ```
 
 * **Fitting the model**
-
 ```py
 birt = BIRTGD(n_models=pij.shape[1],
              n_instances=pij.shape[0],
@@ -185,7 +182,6 @@ birt.fit(pij)
 ```
 
 * **Summary**
-
 ```py
 birt.summary()
 ```
@@ -204,20 +200,21 @@ birt.summary()
 
 ```
 
-# Using Plot Feature
+# Using Scatterplot Feature
+
 ```py
 birt.plot(xaxis='discrimination',yaxis='difficulty', ann=True, kwargs={'color': 'red'})
 plt.show()
 ```
 
-<img alt = "assets/dis_diff_ex.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/feature-matrix-ops/assets/dis_diff_ex.png">
+<img alt = "assets/dis_diff_ex.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/dis_diff_ex.png">
 
 ```py
 birt.plot(xaxis='difficulty',yaxis='average_item', ann=True, kwargs={'color': 'red'})
 plt.show()
 ```
 
-<img alt = "assets/diff_av_ex2.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/feature-matrix-ops/assets/diff_av_ex2.png">
+<img alt = "assets/diff_av_ex2.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/diff_av_ex2.png">
 
 
 ```py
@@ -225,7 +222,28 @@ birt.plot(xaxis='ability',yaxis='average_response', ann=False)
 plt.show()
 ```
 
-<img alt = "assets/ab_av_ex3.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/feature-matrix-ops/assets/ab_av_ex3.png">
+<img alt = "assets/ab_av_ex3.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/ab_av_ex3.png">
+
+# Using Boxplot Feature
+
+```py
+birt.boxplot(y='abilities',kwargs={'linewidth': 4})
+```
+
+<img alt = "assets/ab_av_ex4.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/ex4.png">
+
+
+```py
+birt.boxplot(x='difficulties')
+```
+<img alt = "assets/ab_av_ex5.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/ex5.png">
+
+```py
+birt.boxplot(y='discriminations')
+```
+
+<img alt = "assets/ab_av_ex6.png" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/ex6.png">
+
 
 # Help and Support
 ## Communication
