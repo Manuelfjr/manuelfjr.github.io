@@ -117,6 +117,7 @@ pip install -i https://test.pypi.org/simple/ birt-gd
 
 ## Source code 
 You can check the code with 
+
 ```bash
 git clone https://github.com/Manuelfjr/birt-gd
 ```
@@ -172,6 +173,7 @@ pij = pd.DataFrame(columns=range(m), index=range(n))
 ```
 
 * **Fitting the model**
+
 ```py
 birt = BIRTGD(n_models=pij.shape[1],
              n_instances=pij.shape[0],
@@ -182,9 +184,11 @@ birt.fit(pij)
 ```
 
 * **Summary**
+
 ```py
 birt.summary()
 ```
+
 ```py
 
         ESTIMATES
