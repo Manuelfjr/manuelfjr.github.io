@@ -160,6 +160,7 @@ array([1.6690203 , 0.9951777 , 0.65577406], dtype=float32)
 How to use the summary feature:
 
 * **Generate data**
+
 ```py
 import numpy as np
 import matplotlib.pyplot as plt
