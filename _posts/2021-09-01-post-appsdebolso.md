@@ -20,7 +20,7 @@ header:
   #  - label: "Download"
   #    url: "https://github.com"
   actions:
-    - label: "Site"
+    - label: "site"
       url: "https://www.oabdebolso.com/"
 
 last_modified_at: 2021-09-01T00:00:00-04:00
