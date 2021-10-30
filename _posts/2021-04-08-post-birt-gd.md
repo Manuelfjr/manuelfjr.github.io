@@ -9,7 +9,7 @@ tags:
   - IRT
   - Python
   - Model
-  - v0.1.25
+  - v0.1.15
   - Statistic
   - works
 toc: true
@@ -21,7 +21,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://test-files.pythonhosted.org/packages/46/a5/d0bb5d09abe9a67974ffeec1b2adb66fcfe1189aa30ac8935e23318ed60c/birt-gd-0.1.15.tar.gz"
+      url: "https://files.pythonhosted.org/packages/a7/34/0478e692c40128f29463ba8a5d8ddd4e2b036fea33e8b076e4647b18b486/birt-gd-0.1.15.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
