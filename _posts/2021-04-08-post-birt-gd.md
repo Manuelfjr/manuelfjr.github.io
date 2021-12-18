@@ -923,6 +923,12 @@ Public License instead of this License.  But first, please read
 
 # Contributors
 
+<div class="row">
+  <div class="coluna"><a href='https://github.com/tmfilho'><img src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/coauthor1.jpeg" width="100px;" alt="" style="border-radius: 50%;"><br /><sub><b>Telmo de Menezes e Silva Filho</b></sub></div>
+  <div class="coluna"><a href='https://github.com/tmfilho'><img src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/coauthor1.jpeg" width="100px;" alt="" style="border-radius: 50%;"><br /><sub><b>Telmo de Menezes e Silva Filho</b></sub></div>
+
+
+-------------------
 <table  justify-self="center">
   <tr>
     <a href="https://github.com/tmfilho"><img style="border-radius: 50%;" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/coauthor1.jpeg" width="100px;" alt=""/><br /><sub><b>Telmo de Menezes e Silva Filho</b></sub></a><br /><a href="https://github.com/tmfilho" title=""></a>
