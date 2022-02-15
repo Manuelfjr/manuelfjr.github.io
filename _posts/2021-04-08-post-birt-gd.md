@@ -21,7 +21,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://files.pythonhosted.org/packages/0c/86/99c9ba7c99880c76091a80550066c80325ff87e866edfd9f487a35cdd1c1/birt-gd-0.1.27.tar.gz"
+      url: "https://files.pythonhosted.org/packages/d4/a6/d77bc67eb39c2701a65e39b755b25b34afb89a8a6554a719905202cc43f5/birt-gd-0.1.29.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
