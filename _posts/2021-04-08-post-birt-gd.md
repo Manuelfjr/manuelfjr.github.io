@@ -27,15 +27,19 @@ last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
 ---
 
+[![https://badgen.net/pypi/v/birt-gd](https://badgen.net/pypi/v/birt-gd)](https://pypi.org/project/birt-gd/#history)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/birt-gd?style=flat-square&color=darkgreen)](https://pypi.org/project/birt-gd/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dw/birt-gd?style=flat-square&color=darkgreen)]((https://pypi.org/project/birt-gd/))
 [![license: GPLv3](https://img.shields.io/badge/license-GPLv3-red.svg?&logo=license&color=blue)](https://github.com/Manuelfjr/birt-gd/blob/main/LICENSE)
 [![Docs](https://img.shields.io/badge/docs-birtgd-blue?&logo)](https://github.com/Manuelfjr/birt-gd)
 [![Author](https://img.shields.io/badge/author-manuelfjr-blue?&logo=github)](https://github.com/Manuelfjr)
 [![Author2](https://img.shields.io/badge/author-tmfilho-blue?&logo=github)](https://github.com/tmfilho)
-
+[![https://badgen.net/github/open-issues/manuelfjr/birt-gd](https://badgen.net/github/open-issues/manuelfjr/birt-gd)](https://github.com/Manuelfjr/birt-gd/issues?q=is%3Aopen+is%3Aissue)
+[![https://badgen.net/github/closed-issues/manuelfjr/birt-gd](https://badgen.net/github/closed-issues/manuelfjr/birt-gd)](https://github.com/Manuelfjr/birt-gd/issues?q=is%3Aissue+is%3Aclosed)
 
 # [birt-gd](https://pypi.org/project/birt-gd/)
 
-**BIRTGD** is an implementation of Beta3-irt using gradient descent.
+**BIRTGD** is an implementation of &beta;<sup>3</sup>-irt using gradient descent.
 
 The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be p<sub>ij</sub> ~ &Beta;(&alpha;<sub>ij</sub>, &beta;<sub>ij</sub>), the probability of the *i* model correctly classifying the *j* model. Being, 
 
