@@ -291,18 +291,18 @@ defaults:
       share: true
       related: true
   # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      show_date: true
-      layout: single
-      #read_time: true
-      author_profile: true
-      share: true
-      comments: true
-      sidebar:
-        nav: "docs"
+  #- scope:
+  #    path: ""
+  #    type: docs
+  #  values:
+  #    show_date: true
+  #    layout: single
+  #    #read_time: true
+  #    author_profile: true
+  #    share: true
+  #    comments: true
+  #    sidebar:
+  #      nav: "docs"
   # _pages
   #- scope:
   #    path: ""
