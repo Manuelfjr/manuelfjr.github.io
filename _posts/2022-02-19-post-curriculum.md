@@ -1,4 +1,6 @@
 ---
+permalink: /resume/
+
 title:  "Resume"
 #date: "`r format(Sys.Date(), "%d. %B %Y")`"
 search: true
@@ -19,7 +21,7 @@ header:
     - label: "Read"
       url: "https://drive.google.com/file/d/1HefoiufG1R-wok0TtwSCqNPURWhW7zh8/view?usp=sharing"
 
-last_modified_at: 2022-02-19T08:06:00-00:00
+last_modified_at: 2021-04-01T08:06:00-00:00
 ---
 
 It's my Resume with my experiencies.

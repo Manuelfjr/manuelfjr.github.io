@@ -2,6 +2,8 @@
 main:
   - title: "Posts"
     url: https://manuelfjr.github.io
+  - title: "Resume"
+    url: /resume/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
   # - title: "Quick-Start Guide"
