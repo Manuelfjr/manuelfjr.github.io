@@ -1,6 +1,6 @@
 ---
 title:  "Resume"
-date: `r format(Sys.Date(), "%d. %B %Y")`
+date: "`r format(Sys.Date(), "%d. %B %Y")`"
 search: true
 categories: 
   - Resume
@@ -14,7 +14,7 @@ header:
   overlay_image: /assets/images/main_fundo.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   #date: \`r format(Sys.Date(), "%m %d,%Y")`\
-  caption: \`r format(Sys.Date(), "%d. %B %Y")\` #"Photo credit: [**Unsplash**](https://unsplash.com)"
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Read"
       url: "https://drive.google.com/file/d/1HefoiufG1R-wok0TtwSCqNPURWhW7zh8/view?usp=sharing"
