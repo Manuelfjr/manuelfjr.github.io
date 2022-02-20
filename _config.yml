@@ -41,6 +41,7 @@ comments:
     num_posts            : #5 (default)
     colorscheme          : "light" # "light" (default), "dark"
   utterances:
+    src                  : "https://utteranc.es/client.js"
     repo                 : "manuelfjr/manuelfjr.github.io"
     theme                : "github-light" # "github-light" (default), "github-dark"
     issue_term           : "pathname" # (default)
