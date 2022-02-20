@@ -1,6 +1,7 @@
 ---
 title: "BIRTGD is an implementation of &beta;<sup>3</sup>-IRT using gradient descent."
 search: true
+comments: true
 categories: 
   - Works
 tags:
