@@ -298,7 +298,7 @@ defaults:
     values:
       show_date: true
       layout: single
-      #read_time: true
+      read_time: true
       author_profile: true
       share: true
       comments: true
