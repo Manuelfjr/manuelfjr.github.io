@@ -2,8 +2,7 @@
 permalink: /terms/
 
 title: "Terms and Privacy Policy"
-sidebar:
-  title: "Sample Title"
+
 search: true
 categories: 
   - Terms
