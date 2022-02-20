@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Manuel Ferreira Junior"
-  avatar           : "/assets/images/bio6.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" feed
+  avatar           : "/assets/images/bio6.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : | 
     Statistics student at Universidade Federal da Paraíba | 
     Co-founder at TAIL-Techonology and Artificial Inteligence League |
