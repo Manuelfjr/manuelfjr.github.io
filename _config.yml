@@ -97,10 +97,10 @@ author:
   name             : "Manuel Ferreira Junior"
   avatar           : "/assets/images/bio3.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : | 
-    Statistics student at Universidade Federal da Paraíba 
-    Co-founder at TAIL-Techonology and Artificial Inteligence League
-    Data Scientist Intern at Aplicativos de Bolso
-    Data Scientist Intern at Sem Processo
+    Statistics student at Universidade Federal da Paraíba | 
+    Co-founder at TAIL-Techonology and Artificial Inteligence League |
+    Data Scientist Intern at Aplicativos de Bolso |
+    Data Scientist Intern at Sem Processo 
   location         : "Brazil, João Pessoa - PB"
   email            :
   links:
