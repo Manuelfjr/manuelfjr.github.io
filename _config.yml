@@ -30,16 +30,16 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : 1281173949057908
-    num_posts            : 5 # (default)
-    colorscheme          : "light" # "light" (default), "dark"
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -62,7 +62,7 @@ algolia:
   powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : true # false (default), true
+  instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Manuel Ferreira Junior"
-  avatar           : "/assets/images/bio5.png" #JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio5.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : | 
     Statistics student at Universidade Federal da Paraíba | 
     Co-founder at TAIL-Techonology and Artificial Inteligence League |
@@ -182,8 +182,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  #- /docs # ignore Minimal Mistakes /docs
-  #- /test # ignore Minimal Mistakes /test
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -291,28 +291,15 @@ defaults:
       share: true
       related: true
   # _docs
-  #- scope:
-  #    path: ""
-  #    type: docs
-  #  values:
-  #    show_date: true
-  #    layout: single
-  #    #read_time: true
-  #    author_profile: true
-  #    share: true
-  #    comments: true
-  #    sidebar:
-  #      nav: "docs"
-  # _pages
-  #- scope:
-  #    path: ""
-  #    type: pages
-  #  values:
-  #    show_date: true
-  #    layout: single
+  - scope:
+      path: ""
+      type: docs
+    values:
+      show_date: true
+      layout: single
       #read_time: true
-  #    author_profile: true
-  #    share: true
-  #    comments: true
-  #    sidebar:
-  #      nav: "pages"
+      author_profile: true
+      share: true
+      comments: true
+      sidebar:
+        nav: "docs"
