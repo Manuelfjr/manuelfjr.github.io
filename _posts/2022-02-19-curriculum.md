@@ -12,7 +12,8 @@ excerpt: " "
 header:
   overlay_image: /assets/images/main_fundo.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: \`r format(Sys.Date(), "%m %d,%Y")`\ #"Photo credit: [**Unsplash**](https://unsplash.com)"
+  date: \`r format(Sys.Date(), "%m %d,%Y")`\
+  caption: '`r paste("First created on Oct 01, 2018. Updated on", Sys.Date())`' #"Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Read"
       url: "https://drive.google.com/file/d/1HefoiufG1R-wok0TtwSCqNPURWhW7zh8/view?usp=sharing"
