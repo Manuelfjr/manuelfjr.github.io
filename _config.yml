@@ -122,7 +122,8 @@ author:
     
     - label: "LinkedIn"
       #icon: "fab fa-fw fa-linkedin"
-      icon: "fa fa-linkedin"
+      #icon: "fa fa-linkedin"
+      icon: "fa fa-linkedin-square"
       url: "https://www.linkedin.com/in/manuefjr"
 
     #- label: "Facebook"
