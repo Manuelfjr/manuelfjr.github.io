@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Manuel Ferreira Junior"
-  avatar           : "/assets/images/bio3.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "[/assets/images/bio3.JPG](https://raw.githubusercontent.com/Manuelfjr/manuelfjr.github.io/master/assets/images/bio3.JPG)" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Student of the Bachelor of Statistics course at Universidade Federal da Paraíba \n | Co-founder and Director at TAIL-Techonology and Artificial Inteligence League \n | Data Scientist Intern at Aplicativos de Bolso \n | Data Scientist Intern at Sem Processo "
   location         : "Brazil, João Pessoa - PB"
   email            :
