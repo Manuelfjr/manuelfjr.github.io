@@ -30,7 +30,7 @@ masthead_title           : #" " # overrides the website title displayed in the m
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" #"facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,8 +41,11 @@ comments:
     num_posts            : #5 (default)
     colorscheme          : "light" # "light" (default), "dark"
   utterances:
+    repo                 : "manuelfjr/manuelfjr.github.io"
     theme                : "github-dark" # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    issue_term           : "pathname" # (default)
+    label                : "Comments"
+
   staticman:
     branch               : "master" # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
