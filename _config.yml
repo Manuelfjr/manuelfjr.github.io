@@ -114,7 +114,7 @@ author:
     #src: "https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Borges+Coutinho,+68+-+Cristo+Redentor,+Jo%C3%A3o+Pessoa+-+PB,+58070-403/@-7.1616486,-34.8840958,17z/data=!3m1!4b1!4m5!3m4!1s0x7ace953905e61c1:0x85994aeaffe3c779!8m2!3d-7.1616539!4d-34.8819071"
   email            :
   links:
-    - label: <i class="fas fa-band-aid"> João Pessoa, BR </i>
+    - label: <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><i class="fas fa-fw fa-envelope-square"> João Pessoa, BR </i>
       #icon: "fa-solid fa-location-dot"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
