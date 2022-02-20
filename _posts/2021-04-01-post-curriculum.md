@@ -3,12 +3,12 @@ permalink: /resume/
 
 title:  "Resume"
 #date: "`r format(Sys.Date(), "%d. %B %Y")`"
-#search: true
-#categories: 
-#  - Resume
-#tags:
-#  - Resume
-#  - Me
+search: true
+categories: 
+  - Resume
+tags:
+  - Resume
+  - Me
 toc: true
 
 excerpt: " "
