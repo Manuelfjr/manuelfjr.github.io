@@ -1,6 +1,6 @@
 ---
 title:  "Resume"
-date: "`r format(Sys.Date(), "%d. %B %Y")`"
+#date: "`r format(Sys.Date(), "%d. %B %Y")`"
 search: true
 categories: 
   - Resume
