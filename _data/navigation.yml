@@ -8,5 +8,5 @@ main:
     url: https://manuelfjr.github.io
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Sitemap"
+    url: /sitemap/

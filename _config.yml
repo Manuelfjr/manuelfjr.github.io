@@ -38,8 +38,8 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                : 1281173949057908
-    num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    num_posts            : 5 # (default)
+    colorscheme          : "light" # "light" (default), "dark"
   utterances:
     theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -304,15 +304,15 @@ defaults:
       sidebar:
         nav: "docs"
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      show_date: true
-      layout: single
+  #- scope:
+  #    path: ""
+  #    type: pages
+  #  values:
+  #    show_date: true
+  #    layout: single
       #read_time: true
-      author_profile: true
-      share: true
-      comments: true
-      sidebar:
-        nav: "pages"
+  #    author_profile: true
+  #    share: true
+  #    comments: true
+  #    sidebar:
+  #      nav: "pages"
