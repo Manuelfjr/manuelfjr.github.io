@@ -90,6 +90,8 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
+google_analytics:   G-K8Q8D7HLYB
+google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom" bio
   google:
