@@ -121,8 +121,8 @@ author:
       url: "https://twitter.com/manuelfjr0"
     
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      #icon: "fab fa-linkedin"
+      #icon: "fab fa-fw fa-linkedin"
+      icon: "fa fa-linkedin"
       url: "https://www.linkedin.com/in/manuefjr"
 
     #- label: "Facebook"
