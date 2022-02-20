@@ -1,8 +1,18 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-last_modified_at: 2021-04-01T12:42:38-04:00
+search: true
+categories: 
+  - Terms
+tags:
+  - Terms
 toc: true
+
+header:
+  overlay_image: /assets/images/main_fundo.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+
+last_modified_at: 2021-04-01T12:42:38-04:00
 ---
 
 ## Privacy Policy
