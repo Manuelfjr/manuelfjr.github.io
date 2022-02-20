@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Manuel Ferreira Junior"
 description              : "Python and R enthusiast. Machine Learning, Artificial Intelligence, Item Response Theory, Data Science and Statistics researcher."
 url                      : "https://manuelfjr.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#baseurl                  : "/manueltestfjr" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/manuelfjr" # the subpath of your site, e.g. "/blog"
 repository               : "Manuelfjr/manuelfjr.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/main_fundo.png" #"/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                : 1281173949057908
     num_posts            : #5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          : "light" # "light" (default), "dark"
   utterances:
     theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -74,7 +74,7 @@ twitter:
   username               : "@manuelfjr0"
 facebook:
   username               :
-  app_id                 :
+  app_id                 : 
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
