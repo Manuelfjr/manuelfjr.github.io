@@ -102,8 +102,7 @@ analytics:
 author:
   name             : "Manuel Ferreira Junior"
   avatar           : "/assets/images/bio8.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : |
-    Statistical | Data Scientist | Machine Learning
+  bio              : "Statistical | Data Scientist | Machine Learning" #|
   #  Statistics student at Universidade Federal da Paraíba | 
   #  Co-founder at TAIL-Techonology and Artificial Inteligence League |
   #  Data Scientist Intern at Aplicativos de Bolso |
