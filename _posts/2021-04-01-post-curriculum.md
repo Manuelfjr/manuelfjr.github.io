@@ -26,7 +26,7 @@ last_modified_at: 2021-04-01T08:06:00-00:00
 
 **Hi there** 👋, my is **Manuel**!
 
-I'm a statistical student and programmer. I also do contribution on Open Source Projecs. My favorite languages for programming it's Python and R.
+I'm a **statistical** student and **programmer**. I also do contribution on **Open Source Projecs**. My favorite languages for programming it's **Python** and **R**.
 
 I'm a **very curious** person who loves to share my **knowledge**.
 
@@ -35,6 +35,9 @@ So, if you appreciate my job and wish **to support my work**, you can just consi
 <div align='center'>
   <a href="https://www.buymeacoffee.com/manuelfjr" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" target="_blank"></a>
 </div>
+
+<iframe src="https://open.spotify.com/embed/track/2SUpC3UgKwLVOS2FtZif9N" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
 <!--
 Read my Resume with my experiencies in the .
 -->
