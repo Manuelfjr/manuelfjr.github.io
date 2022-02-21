@@ -114,7 +114,7 @@ author:
   email            :
   links:
     - label: "João Pessoa, BR" # 
-      icon: "fas fa-map-marker-alt" #"fa-solid fa-location-dot"
+      icon: "fa-solid fa-map-location" #"fas fa-map-marker-alt" #"fa-solid fa-location-dot"
       url: "https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Borges+Coutinho,+68+-+Cristo+Redentor,+Jo%C3%A3o+Pessoa+-+PB,+58070-403/@-7.1616486,-34.8840958,17z/data=!3m1!4b1!4m5!3m4!1s0x7ace953905e61c1:0x85994aeaffe3c779!8m2!3d-7.1616539!4d-34.8819071"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
