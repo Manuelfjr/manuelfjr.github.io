@@ -24,7 +24,7 @@ header:
 last_modified_at: 2021-04-01T08:06:00-00:00
 ---
 
-**Hi there** 👋, I'm **Manuel**!
+**Hi there** 👋🏻, I'm **Manuel**!
 
 I'm a statistical student and programmer. I also do contribution on Open Source Projecs. My favorite languages for programming it's Python and R.
 
