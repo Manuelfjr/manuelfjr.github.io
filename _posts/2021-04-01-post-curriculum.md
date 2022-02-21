@@ -40,6 +40,9 @@ So, if you appreciate my job and wish **to support my work**, you can just consi
 </div>
 
 <iframe src="https://open.spotify.com/follow/1/?uri=false&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+
+<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:2hl0xAkS2AIRAu23TVMBG1?si=iVf4LrmXSh23m4MBA8_bmg&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+
 <!--
 Read my Resume with my experiencies in the .
 -->
