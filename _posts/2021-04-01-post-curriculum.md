@@ -36,6 +36,8 @@ So, if you appreciate my job and wish to support my work, you can just consider 
   <a href="https://www.buymeacoffee.com/manuelfjr" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" target="_blank"></a>
 </div>
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="manuelfjr" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffe" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 <!--
 <div class="embed-spotify-song">
     <iframe src="https://open.spotify.com/embed/track2SUpC3UgKwLVOS2FtZif9N?si=5f4c9eeec1d84e2b"  
