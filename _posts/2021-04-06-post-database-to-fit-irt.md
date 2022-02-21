@@ -24,3 +24,4 @@ The item response theory aims to estimate the skills of its respondents, based o
 
 *keywords: Item response theory, Psychometrics, Machine Learning.*
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="manuelfjr" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffe" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

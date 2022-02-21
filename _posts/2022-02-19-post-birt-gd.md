@@ -941,3 +941,5 @@ Public License instead of this License.  But first, please read
     <a href="http://lattes.cnpq.br/5580004940091667"><img style="border-radius: 50%;" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/coauthor4.jpg" width="100px;" alt=""/><br /><sub><b>Eufrásio de Andrade Lima Neto</b></sub></a><br /><a href="http://lattes.cnpq.br/5580004940091667" title=""></a>
   </tr> 
 </table>
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="manuelfjr" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffe" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
