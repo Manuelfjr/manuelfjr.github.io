@@ -35,12 +35,14 @@ So, if you appreciate my job and wish **to support my work**, you can just consi
 <div align='center'>
   <a href="https://www.buymeacoffee.com/manuelfjr" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" target="_blank"></a>
 </div>
+<!--
 <div align='center'>
   <iframe src="https://open.spotify.com/embed/track/2SUpC3UgKwLVOS2FtZif9N" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
-
-<iframe src="https://open.spotify.com/follow/1/?uri=false&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="false"></iframe>
- 
+-->
 <!--
+<iframe src="https://open.spotify.com/follow/1/?uri=false&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="false"></iframe>
+-->
+<!-- 
 Read my Resume with my experiencies in the .
 -->
