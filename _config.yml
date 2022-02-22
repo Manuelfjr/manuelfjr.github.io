@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                : "1281173949057908"
     num_posts            : #5 (default)
-    colorscheme          : "light" # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
   utterances:
     src                  : "https://utteranc.es/client.js"
     repo                 : "manuelfjr/manuelfjr.github.io"
