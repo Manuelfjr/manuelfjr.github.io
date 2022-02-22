@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Manuel | Welcome"
-title_separator          : " | "
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "Manuel" #| Welcome"
+title_separator          : #" | "
+subtitle                 : "Welcome" # site tagline that appears below site title in masthead
 name                     : "Manuel Ferreira Junior"
 description              : "Python and R enthusiast. Machine Learning, Artificial Intelligence, Item Response Theory, Data Science and Statistics researcher."
 url                      : "https://manuelfjr.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
