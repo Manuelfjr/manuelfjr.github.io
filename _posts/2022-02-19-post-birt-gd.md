@@ -27,6 +27,7 @@ header:
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
 ---
+<!--
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,6 +40,7 @@ mathjax: true
     </script>
 </body>
 </html>
+-->
 
 [![https://badgen.net/pypi/v/birt-gd](https://badgen.net/pypi/v/birt-gd)](https://pypi.org/project/birt-gd/#history)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/birt-gd?style=flat-square&color=darkgreen)](https://pypi.org/project/birt-gd/)
