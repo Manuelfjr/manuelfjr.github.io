@@ -22,7 +22,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://files.pythonhosted.org/packages/64/82/6202050aaa574935e790fd0417a6873353dc611f0bb1863fd02adcf8e30a/birt-gd-0.1.33.tar.gz"
+      url: "https://files.pythonhosted.org/packages/1a/ce/ccb846133c70a64f8d110ded3700c928d0c696f4342769b72f5d645c3f61/birt-gd-0.1.31.tar.gz"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
@@ -31,6 +31,7 @@ mathjax: true
 [![https://badgen.net/pypi/v/birt-gd](https://badgen.net/pypi/v/birt-gd)](https://pypi.org/project/birt-gd/#history)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/birt-gd?style=flat-square&color=darkgreen)](https://pypi.org/project/birt-gd/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dw/birt-gd?style=flat-square&color=darkgreen)]((https://pypi.org/project/birt-gd/))
+[![PyPI - Downloads](https://img.shields.io/pypi/dd/birt-gd?style=flat-square&color=darkgreen)]((https://pypi.org/project/birt-gd/))
 [![license: GPLv3](https://img.shields.io/badge/license-GPLv3-red.svg?&logo=license&color=blue)](https://github.com/Manuelfjr/birt-gd/blob/main/LICENSE)
 [![Docs](https://img.shields.io/badge/docs-birtgd-blue?&logo)](https://github.com/Manuelfjr/birt-gd)
 [![Author](https://img.shields.io/badge/author-manuelfjr-blue?&logo=github)](https://github.com/Manuelfjr)
