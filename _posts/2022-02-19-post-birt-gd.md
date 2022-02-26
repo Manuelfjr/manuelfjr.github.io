@@ -27,6 +27,18 @@ header:
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
 ---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        window.alert('Welcome 🚀!!')
+    </script>
+</body>
+</html>
 
 [![https://badgen.net/pypi/v/birt-gd](https://badgen.net/pypi/v/birt-gd)](https://pypi.org/project/birt-gd/#history)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/birt-gd?style=flat-square&color=darkgreen)](https://pypi.org/project/birt-gd/)
@@ -933,7 +945,7 @@ Public License instead of this License.  But first, please read
 </table>
 
 # Contributors
-
+<html>
 <table  justify-self="center">
   <tr>
     <a href="https://github.com/tmfilho"><img style="border-radius: 50%;" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/coauthor1.jpeg" width="100px;" alt=""/><br /><sub><b>Telmo de Menezes e Silva Filho</b></sub></a><br /><a href="https://github.com/tmfilho" title=""></a>
