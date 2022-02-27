@@ -23,7 +23,6 @@ header:
 
 last_modified_at: 2021-04-01T08:06:00-00:00
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
