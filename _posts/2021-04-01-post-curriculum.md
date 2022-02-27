@@ -23,7 +23,15 @@ header:
 
 last_modified_at: 2021-04-01T08:06:00-00:00
 ---
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/image/git.ico" type="image/x-icon">
+</head>
+</html>
 **Hi there** 👋🏻, I'm **Manuel**!
 
 I'm a statistical student and programmer. I also do contribution on Open Source Projecs. My favorite languages for programming it's Python and R.
