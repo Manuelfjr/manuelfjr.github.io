@@ -25,7 +25,7 @@ header:
 last_modified_at: 2021-04-04T08:06:00-03:00
 ---
 
-We are the Technology and Artificial Intelligence League (TAIL), a non-profit organization directed by students. Our journey started in 2020, during the pandemics. We are located at João Pessoa-Paraíba, Brazil, linked to the Artificial Intelligence Applications laboratory, ARIA - UFPB.
+We are the Technology and <a target='_blank' href='https://aria.ci.ufpb.br/tail/'>Artificial Intelligence League (TAIL)</a>, a non-profit organization directed by students. Our journey started in 2020, during the pandemics. We are located at João Pessoa-Paraíba, Brazil, linked to the Artificial Intelligence Applications laboratory, ARIA - UFPB.
 
 TAIL emerged intending to develop its members, promoting content from different areas and with an interest in developing research in ​​Artificial Intelligence. Our body of members is composed of PhD professors, master and undergraduate students.
 

@@ -21,7 +21,7 @@ header:
   #    url: "https://github.com"
   actions:
     - label: "site"
-      url: "https://www.oabdebolso.com/"
+      url: <a target='_blank' href='https://aria.ci.ufpb.br/tail/'></a> #"https://www.oabdebolso.com/"
 
 last_modified_at: 2021-09-01T00:00:00-04:00
 ---
