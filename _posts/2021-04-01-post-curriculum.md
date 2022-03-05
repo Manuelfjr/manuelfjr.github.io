@@ -34,7 +34,7 @@ I'm a very curious person who loves to share my knowledge.
 
 So, if you appreciate my job and wish to support my work, you can just consider **buying me a coffee**.
 
-<audio preload="metadata" autoplay controls loop>
+<audio preload="auto" autoplay controls loop>
   <source srt="music01.mp3" type="audio/mpeg"></source>
 </audio>
 
