@@ -35,7 +35,8 @@ I'm a very curious person who loves to share my knowledge.
 So, if you appreciate my job and wish to support my work, you can just consider **buying me a coffee**.
 
 <audio preload="metadata" autoplay controls loop>
-  <source srt="music03.mp3" type="audio/mpeg"></source>
+  <source srt="music01.mp3" type=""></source>
+  <>
 </audio>
 
 <div align='center'>
