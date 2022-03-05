@@ -34,10 +34,6 @@ I'm a very curious person who loves to share my knowledge.
 
 So, if you appreciate my job and wish to support my work, you can just consider **buying me a coffee**.
 
-<audio preload="auto" autoplay controls loop>
-  <source srt="midias/music01.mp3" type="audio/mpeg"></source>
-</audio>
-
 <div align='center'>
   <a href="https://www.buymeacoffee.com/manuelfjr" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-5F7FFF?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" target="_blank"></a>
 </div>
