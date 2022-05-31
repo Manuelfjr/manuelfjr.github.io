@@ -31,8 +31,7 @@ last_modified_at: 2022-05-31T00:00:00-04:00
 - Monitoring and enhancing the Spectter platform.
 - Creation of dashboards to monitor metrics.
 - Development of an updatable retro forecasting model.
-- Develop predictive ML models and perform statistical analysis and studies.- Development of models for probability of loss and risk based on survival analysis. - Development and implementation of regression/classification/NLP models. - Monitoring and enhancing the Spectter platform. - Creation of dashboards to monitor metrics. - Development of an updatable retro forecasting model. - Develop predictive ML models and perform statistical analysis and studies.
-
+- Develop predictive ML models and perform statistical analysis and studies.
 
 **Skills:** Python · Flask · Project management · Data Modeling · Dashboards · Predictive Modeling · Statistic Modeling · Mathematic Modeling
 
