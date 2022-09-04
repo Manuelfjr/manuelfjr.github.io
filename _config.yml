@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Manuel Ferreira Junior"
-  avatar           : "/assets/images/bio8.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio9.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : | #"Statistical \n Data Scientist \n Machine Learning" #|
     BSc in Statistic |
     Data Scientist at Sem Processo |
