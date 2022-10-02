@@ -1,5 +1,5 @@
 ---
-title:  "Machine Learning Engineer | Data Scientist | Statistic at Kunumi"
+title:  "Machine Learning Engineer at Kunumi"
 search: true
 categories: 
   - Works
@@ -25,6 +25,8 @@ header:
 
 last_modified_at: 2022-09-26T00:00:00-04:00
 ---
+
+- Machine Learning Engineer | Data Scientist | Statistic.
 
 - Development of predict models based in ML methods and AI using Python and other languages.
 
