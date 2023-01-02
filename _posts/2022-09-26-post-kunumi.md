@@ -26,7 +26,7 @@ header:
 last_modified_at: 2022-09-26T00:00:00-04:00
 ---
 
-- Machine Learning Engineer | Data Scientist | Statistic.
+Machine Learning Engineer | Data Scientist | Statistic.
 
 - Solve complex organizational problems through Machine Learning solutions; 
 
