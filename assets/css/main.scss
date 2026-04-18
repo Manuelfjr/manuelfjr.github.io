@@ -68,14 +68,32 @@ h3 {
 
 .greedy-nav {
   position: relative;
+  display: flex;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
   padding-right: 0;
   background: transparent;
 }
 
+.greedy-nav > .site-title {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
 .greedy-nav .visible-links {
+  flex: 1 1 auto;
+  display: flex;
   align-items: center;
+  justify-content: flex-end;
+  gap: 2.2rem;
+  margin: 0;
+  padding-right: 0;
+}
+
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links a {
+  margin: 0;
 }
 
 .site-subtitle,
