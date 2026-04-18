@@ -42,6 +42,10 @@ Machine Learning Engineer and statistics researcher with experience in applied m
 - B.Sc. in Statistics
 - Interests: machine learning, item response theory, clustering evaluation, trustworthy AI, and scientific software
 
+## Workshops and teaching material
+
+- **Latent Ability**. Browsable workshop site prepared for a University of Bristol session with Professor Ricardo Prudencio, including notes, activities, answers, and supporting navigation for latent-ability-aware evaluation in machine learning. [Workshop site](https://manuelfjr.github.io/latent-ability-ml/)
+
 ## Links
 
 - Email: [ferreira.jr.ufpb@gmail.com](mailto:ferreira.jr.ufpb@gmail.com)
