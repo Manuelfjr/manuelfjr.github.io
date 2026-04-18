@@ -26,3 +26,140 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  (function () {
+    const searchRoot = document.getElementById("masthead-search");
+    const searchToggle = searchRoot ? searchRoot.querySelector(".masthead-search__toggle") : null;
+    const searchDismiss = document.getElementById("masthead-search-dismiss");
+    const searchInput = document.getElementById("masthead-search-input");
+    const searchResults = document.getElementById("masthead-search-results");
+    const searchDataNode = document.getElementById("masthead-search-data");
+
+    if (!searchRoot || !searchInput || !searchResults || !searchDataNode) return;
+
+    let entries = [];
+
+    try {
+      entries = JSON.parse(searchDataNode.textContent);
+    } catch (error) {
+      return;
+    }
+
+    const normalize = (value) =>
+      String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+
+    const scoreEntry = (entry, query) => {
+      const title = normalize(entry.title);
+      const description = normalize(entry.description);
+      const text = normalize(entry.text);
+      let score = 0;
+
+      if (title.includes(query)) score += 7;
+      if (description.includes(query)) score += 4;
+      if (text.includes(query)) score += 3;
+      if (title.startsWith(query)) score += 4;
+
+      return score;
+    };
+
+    const escapeHtml = (value) =>
+      String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+
+    const renderResults = (matches) => {
+      searchRoot.classList.add("is-active");
+
+      if (!matches.length) {
+        searchResults.innerHTML = '<p class="masthead-search__empty">No related content found.</p>';
+        searchResults.hidden = false;
+        return;
+      }
+
+      searchResults.innerHTML = matches
+        .map(
+          (entry) =>
+            '<a class="masthead-search__result" href="' + entry.url + '">' +
+              '<span class="masthead-search__result-type">' + entry.type + '</span>' +
+              '<strong>' + escapeHtml(entry.title) + '</strong>' +
+              '<span class="masthead-search__result-description">' + escapeHtml(entry.description || "") + '</span>' +
+            '</a>'
+        )
+        .join("");
+
+      searchResults.hidden = false;
+    };
+
+    const updateResults = () => {
+      const query = normalize(searchInput.value);
+
+      if (!query) {
+        searchRoot.classList.remove("is-active");
+        searchResults.hidden = true;
+        searchResults.innerHTML = "";
+        return;
+      }
+
+      const matches = entries
+        .map((entry) => ({ ...entry, score: scoreEntry(entry, query) }))
+        .filter((entry) => entry.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 6);
+
+      renderResults(matches);
+    };
+
+    searchInput.addEventListener("input", updateResults);
+
+    if (searchToggle) {
+      searchToggle.addEventListener("click", () => {
+        searchRoot.classList.add("is-active");
+        searchInput.focus();
+      });
+    }
+
+    if (searchDismiss) {
+      searchDismiss.addEventListener("click", () => {
+        searchInput.value = "";
+        searchRoot.classList.remove("is-active");
+        searchResults.hidden = true;
+        searchResults.innerHTML = "";
+        searchInput.blur();
+      });
+    }
+
+    searchRoot.addEventListener("mouseenter", () => {
+      if (window.matchMedia("(min-width: 961px)").matches) {
+        searchRoot.classList.add("is-active");
+        searchInput.focus();
+      }
+    });
+
+    searchRoot.addEventListener("mouseleave", (event) => {
+      if (event.relatedTarget && searchRoot.contains(event.relatedTarget)) {
+        return;
+      }
+
+      searchRoot.classList.remove("is-active");
+      searchResults.hidden = true;
+      searchInput.blur();
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!searchRoot.contains(event.target)) {
+        searchRoot.classList.remove("is-active");
+        searchResults.hidden = true;
+      }
+    });
+
+    searchInput.addEventListener("focus", updateResults);
+  })();
+</script>

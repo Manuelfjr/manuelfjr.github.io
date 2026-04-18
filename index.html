@@ -1,26 +1,105 @@
 ---
 layout: home
-author_profile: true
+title: "Home"
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHMQP57ZNQ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<section class="hero">
+  <div class="hero__content">
+    <p class="eyebrow">Machine Learning Engineer • Statistics Researcher • Ferreira-Junior</p>
+    <h1>Machine learning evaluation and statistical modeling for real systems.</h1>
+    <p class="hero__lead">
+      I work on applied ML products and research across clustering evaluation, item response theory,
+      regression analysis, and trustworthy AI.
+    </p>
 
-    gtag('config', 'G-YHMQP57ZNQ');
-    </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/git.ico" type="image/x-icon">
-</head>
-<body>
-    
-</body>
-</html>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="/publications/">Selected publications</a>
+      <a class="btn btn--light-outline" href="/resume/">Professional resume</a>
+    </div>
+
+    <ul class="hero__highlights">
+      <li><strong>CLAIRE</strong> published in <em>Machine Learning</em> by Springer Nature.</li>
+      <li><strong>Gamma-IRT for regression evaluation</strong> published in <em>Knowledge-Based Systems</em>.</li>
+      <li><strong>β⁴-IRT</strong> available as an arXiv preprint.</li>
+    </ul>
+  </div>
+
+  <aside class="profile-card">
+    <img src="https://avatars.githubusercontent.com/u/53409857?s=400&u=467cf21030038ff9b41db6d28783f125b12a6d73&v=4" alt="Portrait of Manuel Ferreira-Junior" class="profile-card__avatar">
+    <h2>Manuel Ferreira-Junior</h2>
+    <p class="profile-card__role">Machine Learning Engineer and Researcher</p>
+    <p class="profile-card__meta">João Pessoa, Brazil</p>
+    <p class="profile-card__motto"><em>Sic • Parvis • Magna</em></p>
+    <p class="profile-card__note">Research in clustering evaluation, item response theory, regression analysis, and practical AI systems.</p>
+  </aside>
+</section>
+
+<section class="section-grid">
+  <article class="section-card">
+    <p class="section-card__kicker">Research</p>
+    <h2>Selected publications</h2>
+    <ul class="clean-list">
+      <li>
+        <strong>CLAIRE</strong><br>
+        Clustering evaluation based on item response theory and model agreement.
+      </li>
+      <li>
+        <strong>Evaluating regression algorithms at the instance level using item response theory</strong><br>
+        Journal article on instance-level evaluation of regression algorithms with Gamma-IRT.
+      </li>
+      <li>
+        <strong>β⁴-IRT</strong><br>
+        A new β³-IRT with enhanced discrimination estimation.
+      </li>
+    </ul>
+  </article>
+
+  <article class="section-card">
+    <p class="section-card__kicker">Experience</p>
+    <h2>Professional focus</h2>
+    <ul class="timeline">
+      <li><strong>Kunumi</strong> — Machine Learning Engineer</li>
+      <li><strong>Sem Processo</strong> — Jr. Data Scientist</li>
+      <li><strong>Sem Processo</strong> — Data Scientist Intern</li>
+    </ul>
+  </article>
+
+  <article class="section-card">
+    <p class="section-card__kicker">Topics</p>
+    <h2>Current areas of work</h2>
+    <ul class="tag-cloud">
+      <li>Clustering evaluation</li>
+      <li>Item response theory</li>
+      <li>Probabilistic modeling</li>
+      <li>NLP</li>
+      <li>Data products</li>
+      <li>Trustworthy AI</li>
+    </ul>
+  </article>
+</section>
+
+<section class="home-section">
+  <div class="section-heading">
+    <p class="eyebrow">Selected writing</p>
+    <h2>Projects, papers, and work notes</h2>
+  </div>
+
+  <div class="writing-grid">
+    <article class="writing-card">
+      <h3><a href="{% post_url 2025-10-01-post-claire %}">CLAIRE</a></h3>
+      <p>A research note on the method proposed by Ferreira-Junior for agreement-based clustering evaluation with item response theory.</p>
+    </article>
+    <article class="writing-card">
+      <h3><a href="{% post_url 2022-02-19-post-birt-gd %}">birt-gd and β⁴-IRT</a></h3>
+      <p>Python implementation work around Beta-IRT modeling and experimentation.</p>
+    </article>
+    <article class="writing-card">
+      <h3><a href="{% post_url 2021-12-01-post-iriscv %}">Iris-CV</a></h3>
+      <p>A paper and dataset effort showing that iris classification is more challenging than it first appears.</p>
+    </article>
+    <article class="writing-card">
+      <h3><a href="{% post_url 2022-09-26-post-kunumi %}">Machine Learning Engineer at Kunumi</a></h3>
+      <p>Applied work on ETL, ML systems, explainability, and cloud-oriented data workflows.</p>
+    </article>
+  </div>
+</section>

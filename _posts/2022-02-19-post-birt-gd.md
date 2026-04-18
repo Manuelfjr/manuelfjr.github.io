@@ -1,5 +1,5 @@
 ---
-title: "BIRTGD is an implementation of &beta;<sup>3</sup>-IRT using gradient descent."
+title: "birt-gd: a Python implementation of &beta;<sup>4</sup>-IRT."
 search: true
 comments: true
 categories: 
@@ -22,25 +22,11 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Download"
-      url: "https://files.pythonhosted.org/packages/64/82/6202050aaa574935e790fd0417a6873353dc611f0bb1863fd02adcf8e30a/birt-gd-0.1.33.tar.gz"
+      url: "https://pypi.org/project/birt-gd/"
 
 last_modified_at: 2021-04-08T08:06:00-07:00
 mathjax: true
 ---
-<!--
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <script>
-        window.alert('Welcome 🚀!!')
-    </script>
-</body>
-</html>
--->
 
 [![https://badgen.net/pypi/v/birt-gd](https://badgen.net/pypi/v/birt-gd)](https://pypi.org/project/birt-gd/#history)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/birt-gd?style=flat-square&color=darkgreen)](https://pypi.org/project/birt-gd/)
@@ -55,7 +41,7 @@ mathjax: true
 
 # [birt-gd](https://pypi.org/project/birt-gd/)
 
-**BIRTGD** is an implementation of &beta;<sup>3</sup>-irt using gradient descent.
+**birt-gd** is a Python implementation of &beta;<sup>4</sup>-IRT using gradient descent.
 
 The model expects to receive two sets of data, *X* being a list or array containing tuples of indices, where the first index references the instance *j* and the second index of the tuple references the model *i*, thus, *Y* will be a list or array where each input will be p<sub>ij</sub> ~ &Beta;(&alpha;<sub>ij</sub>, &beta;<sub>ij</sub>), the probability of the *i* model correctly classifying the *j* model. Being, 
 
@@ -956,6 +942,3 @@ Public License instead of this License.  But first, please read
     <a href="http://lattes.cnpq.br/5580004940091667" target='_blank'><img style="border-radius: 50%;" src="https://raw.githubusercontent.com/Manuelfjr/birt-gd/main/assets/coauthor4.jpg" width="100px;" alt=""/><br /><sub><b>Eufrásio de Andrade Lima Neto</b></sub></a><br /><a href="http://lattes.cnpq.br/5580004940091667" title=""></a>
   </tr> 
 </table>
-
-
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="manuelfjr" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffe" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

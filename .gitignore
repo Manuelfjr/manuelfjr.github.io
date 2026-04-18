@@ -20,6 +20,8 @@ codekit-config.json
 
 # macOS
 .DS_Store
+.venv
+poetry.lock
 
 # Jekyll generated files
 .jekyll-cache

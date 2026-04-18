@@ -1,179 +1,65 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+locale: "en-US"
+title: "Manuel Ferreira-Junior"
+title_separator: " | "
+subtitle:
+name: "Manuel Ferreira-Junior"
+description: "Machine Learning Engineer and Statistics researcher focused on clustering evaluation, item response theory, and practical AI systems."
+url: "https://manuelfjr.github.io"
+repository: "Manuelfjr/manuelfjr.github.io"
+timezone: America/Fortaleza
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-#theme                    : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "en-US"
-title                    : "Welcome" #| Welcome"
-title_separator          : " | "
-subtitle                 : "Manuel" # site tagline that appears below site title in masthead
-name                     : "Manuel Ferreira Junior"
-description              : "Python and R enthusiast. Machine Learning, Artificial Intelligence, Item Response Theory, Data Science and Statistics researcher."
-url                      : "https://manuelfjr.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#baseurl                  : "/manuelfjr.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "Manuelfjr/manuelfjr.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/main_fundo.png" #"/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : #" " # overrides the website title displayed in the masthead, use " " for no title
-#breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : "facebook" #"facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                : "1281173949057908"
-    num_posts            : #5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
-  utterances:
-    src                  : "https://utteranc.es/client.js"
-    repo                 : "manuelfjr/manuelfjr.github.io"
-    theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : "pathname" # (default)
-    label                : "Comments"
-
-  staticman:
-    branch               : "master" # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  enable                 : true
-  siteKey                : "6LdUe48eAAAAALuSMYzX9CmZtaXQGfp1cEEhIt-y"
-  secret                 : "6LdUe48eAAAAANegRNASdQhBvFlF-z_V_ZOPrOKG"
+minimal_mistakes_skin: "default"
+logo:
+teaser:
+og_image: "https://avatars.githubusercontent.com/u/53409857?s=400&u=467cf21030038ff9b41db6d28783f125b12a6d73&v=4"
+masthead_title: "Manuel Ferreira-Junior"
+breadcrumbs: false
+words_per_minute: 220
+search: false
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : "google" # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : "3d84eb89ead854b9b" # YOUR_SEARCH_ENGINE_ID
-  instant_search         : true # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+  hide: true
 
-# Social Sharing
-twitter: 
-  username               : "@manuelfjr0"
-facebook:
-  username               :
-  app_id                 : 
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+comments:
+  provider: false
+
+twitter:
+  username: "manuelfjr0"
+
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-google_analytics:   G-K8Q8D7HLYB
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom" bio
-  google:
-    tracking_id          : G-K8Q8D7HLYB
-    anonymize_ip         : true # true, false (default)
-
-# Site Author
-author:
-  name             : "Manuel Ferreira Junior"
-  avatar           : "/assets/images/bio_final.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : | #"Statistical \n Data Scientist \n Machine Learning" #|
-    BSc in Statistic |
-    Machine Learning Engineer |
-    Data Scientist 
-#Data Scientist Intern at Apps de Bolso |
-  #  Statistics student at Universidade Federal da Paraíba | 
-  #  Co-founder at TAIL-Techonology and Artificial Inteligence League |
-  #  Data Scientist Intern at Aplicativos de Bolso |
-  #  Data Scientist Intern at Sem Processo 
-  #location:  "João Pessoa, BR" #<a href="https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Borges+Coutinho,+68+-+Cristo+Redentor,+Jo%C3%A3o+Pessoa+-+PB,+58070-403/@-7.1616486,-34.8840958,17z/data=!3m1!4b1!4m5!3m4!1s0x7ace953905e61c1:0x85994aeaffe3c779!8m2!3d-7.1616539!4d-34.8819071">xablau</a> #  
-    #- label: "João Pessoa, BR"
-      #icon: "fas fa-fw fa-envelope-square"
-    #src: "https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Borges+Coutinho,+68+-+Cristo+Redentor,+Jo%C3%A3o+Pessoa+-+PB,+58070-403/@-7.1616486,-34.8840958,17z/data=!3m1!4b1!4m5!3m4!1s0x7ace953905e61c1:0x85994aeaffe3c779!8m2!3d-7.1616539!4d-34.8819071"
-  email            :
+  type: Person
+  name: "Manuel Ferreira-Junior"
   links:
-    - label: "João Pessoa, BR" # 
-      icon: "fas fa-globe" #"fas fa-map-marker-alt" #"fa-solid fa-location-dot"
-      url: "https://www.google.com.br/maps/place/Jo%C3%A3o+Pessoa,+PB/@-7.1466036,-34.9516389,12z/data=!3m1!4b1!4m5!3m4!1s0x7ace839019aa3d7:0x6e414a9c6d26db34!8m2!3d-7.1188352!4d-34.8814339"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ferreira.jr.ufpb@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://manuelfjr.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Manuelfjr"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/manuelferreirajr"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      #icon: "fa-brands fa-twitter-square"
-      url: "https://twitter.com/manuelfjr0"
-    
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      #icon: "fa fa-linkedin"
-      #icon: "fa fa-linkedin-square"
-      url: "https://www.linkedin.com/in/manuefjr"
+    - "https://github.com/Manuelfjr"
+    - "https://www.linkedin.com/in/manuefjr"
 
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-# Site Footer
+google_analytics: G-K8Q8D7HLYB
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: G-K8Q8D7HLYB
+    anonymize_ip: true
+
+author:
+  name: "Manuel Ferreira-Junior"
+  avatar: "https://avatars.githubusercontent.com/u/53409857?s=400&u=467cf21030038ff9b41db6d28783f125b12a6d73&v=4"
+  bio: "Machine Learning Engineer, researcher, and author of work on CLAIRE and Beta-IRT."
+  location: "João Pessoa, Brazil"
+  links: []
+
 footer:
   links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-      # url:
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Manuelfjr"
-    #- label: "GitLab"
-    #  icon: "fab fa-fw fa-gitlab"
-    #  # url:
-    #- label: "Bitbucket"
-    #  icon: "fab fa-fw fa-bitbucket"
-      # url:
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/manuefjr"
 
-# Reading Files
 include:
   - .htaccess
   - _pages
   - _posts
-  - _portfolio
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -182,142 +68,94 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
+  - .jekyll-cache
+  - .jekyll-metadata
   - node_modules
+  - poetry.lock
+  - poetry.toml
+  - pyproject.toml
   - package.json
   - package-lock.json
+  - README.md
+  - CHANGELOG.md
   - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - Gemfile
+  - Gemfile.lock
+  - banner.js
+  - docs
+  - test
+  - midias
+  - _site
+
 keep_files:
   - .git
-  - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: true
+lsi: false
 excerpt_separator: "\n\n"
 incremental: true
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
+  toc_levels: 1..3
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: America/Fortaleza # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 8
+paginate_path: /writing/page:num/
 
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
-
-# HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
 
-# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
-      show_date: true
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true # true
-      share: true
-      related: true
-  
-  # _docs
+      comments: false
+      share: false
+      related: false
   - scope:
       path: ""
-      type: docs
+      type: pages
     values:
-      show_date: true
       layout: single
-      read_time: true
-      author_profile: true
-      share: true
-      comments: true
-      sidebar:
-        nav: "docs"
+      author_profile: false

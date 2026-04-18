@@ -18,14 +18,31 @@
             </li>
           {%- endfor -%}
         </ul>
-        {% if site.search == true %}
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
-        </button>
-        {% endif %}
+        <div class="masthead-search" id="masthead-search">
+          <button class="masthead-search__toggle" type="button" aria-label="Search the site">
+            <svg class="icon" width="18" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M10.5 4a6.5 6.5 0 1 0 4.03 11.6l4.43 4.43 1.06-1.06-4.43-4.43A6.5 6.5 0 0 0 10.5 4Zm0 1.5a5 5 0 1 1 0 10a5 5 0 0 1 0-10Z"></path>
+            </svg>
+          </button>
+          <div class="masthead-search__body">
+            <div class="masthead-search__panel">
+              <label class="visually-hidden" for="masthead-search-input">Search the site</label>
+              <input
+                id="masthead-search-input"
+                class="masthead-search__input"
+                type="search"
+                placeholder="Search papers, pages, and notes"
+                autocomplete="off"
+              >
+            </div>
+            <div class="masthead-search__results" id="masthead-search-results" hidden></div>
+          </div>
+          <button class="masthead-search__dismiss" id="masthead-search-dismiss" type="button" aria-label="Close search">
+            <svg class="icon" width="18" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.76 6.76 12 12m0 0 5.24 5.24M12 12l5.24-5.24M12 12l-5.24 5.24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+            </svg>
+          </button>
+        </div>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
@@ -35,3 +52,81 @@
     </div>
   </div>
 </div>
+
+<script id="masthead-search-data" type="application/json">
+[
+  {
+    "title": "Home",
+    "url": "{{ '/' | relative_url }}",
+    "type": "Page",
+    "description": "Overview of Manuel Ferreira-Junior's current work in machine learning engineering, clustering evaluation, and statistical modeling.",
+    "text": "Manuel Ferreira-Junior machine learning engineer researcher clustering evaluation item response theory statistical modeling"
+  },
+  {
+    "title": "Publications",
+    "url": "{{ '/publications/' | relative_url }}",
+    "type": "Page",
+    "description": "Selected papers, preprints, and software releases including CLAIRE, beta 4-IRT, regression evaluation, and Iris-CV.",
+    "text": "CLAIRE beta 4 irt evaluating regression algorithms instance level item response theory iris-cv publications papers"
+  },
+  {
+    "title": "Resume",
+    "url": "{{ '/resume/' | relative_url }}",
+    "type": "Page",
+    "description": "Professional background across Kunumi, Sem Processo, and applied machine learning and data science roles.",
+    "text": "resume experience kunumi sem processo machine learning engineer data scientist researcher"
+  },
+  {
+    "title": "Writing",
+    "url": "{{ '/writing/' | relative_url }}",
+    "type": "Page",
+    "description": "Posts and project notes on machine learning systems, research artifacts, and applied data workflows.",
+    "text": "writing posts project notes birt-gd iris-cv kunumi beta irt"
+  },
+  {
+    "title": "CLAIRE",
+    "url": "{{ '/publications/' | relative_url }}#claire",
+    "type": "Paper",
+    "description": "A Machine Learning journal paper on clustering evaluation with item response theory and agreement-aware modeling.",
+    "text": "claire clustering evaluation item response theory machine learning springer nature paper"
+  },
+  {
+    "title": "Evaluating Regression Algorithms at the Instance Level Using Item Response Theory",
+    "url": "{{ '/publications/' | relative_url }}#gamma-irt-regression",
+    "type": "Paper",
+    "description": "Knowledge-Based Systems article introducing instance-level regression evaluation through item response theory.",
+    "text": "regression algorithms instance level item response theory gamma irt knowledge based systems paper"
+  },
+  {
+    "title": "β⁴-IRT",
+    "url": "{{ '/publications/' | relative_url }}#beta4-irt",
+    "type": "Preprint",
+    "description": "arXiv preprint advancing beta-IRT with improved discrimination estimation and practical modeling refinements.",
+    "text": "beta4 irt beta 4 irt beta-irt arxiv preprint item response theory"
+  },
+  {
+    "title": "Iris-CV",
+    "url": "{{ '/publications/' | relative_url }}#iris-cv",
+    "type": "Paper",
+    "description": "BRACIS 2021 work showing iris classification is more challenging than conventional benchmarks suggest.",
+    "text": "iris cv iris classification dataset bracis paper"
+  },
+  {
+    "title": "birt-gd",
+    "url": "{{ '/publications/' | relative_url }}#birt-gd",
+    "type": "Software",
+    "description": "Open-source Python implementation supporting beta-IRT modeling and experimentation.",
+    "text": "birt-gd software python beta irt item response theory open source"
+  }
+  {%- for post in site.posts -%}
+  ,
+  {
+    "title": {{ post.title | jsonify }},
+    "url": "{{ post.url | relative_url }}",
+    "type": "Post",
+    "description": {{ post.excerpt | default: post.content | markdownify | strip_html | normalize_whitespace | truncatewords: 24 | jsonify }},
+    "text": {{ post.content | markdownify | strip_html | normalize_whitespace | truncatewords: 50 | jsonify }}
+  }
+  {%- endfor -%}
+]
+</script>

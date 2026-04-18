@@ -47,6 +47,3 @@ Some extra works:
    - Partners: Brisanet, Hikivision, FUNETEC, SEFAZ, SESDS and SEECT.
 
    - Objective: To design and develop a data integration platform related to the systems of the Integrated Command and Control Center (CICC) of the Government of the State of Paraíba (CICC-PB) and current systems of the State Department of Finance of the State of Paraíba (SEFAZ ), Paraíba State Secretariat for Security and Social Defense (SESDS) and Paraíba State Secretariat for Education and Science and Technology (SEECT), including real-time data and building applications that use intelligence with the main objective of improving tax inspection systems; public security; and education, culture and technology, linked, respectively, to SEFAZ, SESDS and SEECT.
-
-
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="manuelfjr" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffe" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

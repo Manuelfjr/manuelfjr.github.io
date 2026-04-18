@@ -1,6 +1,6 @@
 ---
-title: "Posts"
-permalink: /year-archive/
+title: "Writing"
+permalink: /writing/
 layout: posts
-author_profile: true
+excerpt: "Selected posts, project notes, and research-related writing."
 ---

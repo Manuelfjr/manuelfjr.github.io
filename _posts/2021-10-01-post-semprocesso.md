@@ -27,5 +27,3 @@ last_modified_at: 2021-10-01T00:00:00-04:00
 ---
 
  Develop predictive ML models and perform statistical analysis and studies. 
-
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="manuelfjr" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffe" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

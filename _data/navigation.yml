@@ -1,16 +1,10 @@
 # main links
 main:
-  - title: "Posts"
-    url: https://manuelfjr.github.io
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
   - title: "Resume"
     url: /resume/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
-  # - title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  #- title: "Sitemap"
-  #  url: /sitemap/
+  - title: "Writing"
+    url: /writing/

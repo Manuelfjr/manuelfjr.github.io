@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "manuelfjr-github-io"
+version = "0.1.0"
+description = "Local Python workspace for the manuelfjr.github.io repository."
+authors = ["Manuel Ferreira-Junior"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
